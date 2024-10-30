@@ -66,3 +66,6 @@ pg_dump -cC --inserts -U freecodecamp salon > salon.sql
 git remote remove origin
 git remote add origin https://github.com/SinaeHong0424/SalonAppointmentScheduler
 git add .
+git push -u origin main
+git pull origin main --allow-unrelated-histories
+git add .
